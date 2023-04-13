@@ -1,3 +1,12 @@
+build yacd
+
+```bash
+git clone https://github.com/MetaCubeX/Yacd-meta.git
+npm i -g pnpm
+pnpm i
+pnpm build
+```
+
 install
 
 ```bash
