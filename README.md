@@ -9,6 +9,8 @@ sudo install clash.meta-linux-amd64-v1.14.3 /usr/local/bin/Clash-Meta
 sudo mkdir /etc/Clash-Meta
 sudo cp config.yaml /etc/Clash-Meta
 sudo cp -r yacd /etc/Clash-Meta
+wget https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat
+sudo cp geoip.dat /etc/Clash-Meta/GeoIP.dat
 sudo chown -R clash-meta:clash-meta /etc/Clash-Meta
 sudo cp Clash-Meta.service /etc/systemd/system
 sudo systemctl daemon-reload
